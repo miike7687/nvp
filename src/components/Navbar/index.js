@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import "./styles.css";
 
 const Navbar = () => {
   const location = useLocation();
@@ -25,6 +26,30 @@ const Navbar = () => {
       {/* <!-- Links to other pages in my nav bar --> */}
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
+          <li className="nav-item">
+            <Link
+              to="/pastshows"
+              className={
+                location.pathname === "/pastshows"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              Past Shows
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/tickets"
+              className={
+                location.pathname === "/tickets"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              Tickets
+            </Link>
+          </li>
           <li className="nav-item">
             <Link
               to="/portfolio"
