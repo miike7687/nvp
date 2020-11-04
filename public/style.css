@@ -8,10 +8,6 @@ h1 {
   background-color: darkcyan;
 }
 
-body {
-  background-image: url("/fame1.jpg");
-}
-
 h2 {
   padding: 15px;
 }
@@ -20,7 +16,7 @@ h2 {
   width: 100%;
   margin: auto;
   margin-top: 30px;
-  background-color: gray;
+  color: rgb(245, 191, 153);
 }
 /* Style the container on my homepage */
 .container1 {

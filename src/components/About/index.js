@@ -1,5 +1,6 @@
 import React from "react";
 import Headshot from "./Headshot1.png";
+import "./styles.css";
 
 const About = () => {
   return (
