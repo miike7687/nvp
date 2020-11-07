@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles.css";
 
 const Portfolio = () => {
   return (
@@ -14,19 +15,15 @@ const Portfolio = () => {
         <div className="col-md-4">
           {/* <!-- card with info about my first Homework assignment --> */}
           <div className="card card-position">
-            <img
-              src="https://securityintelligence.com/wp-content/uploads/2018/10/si-eight-character-password-feature-630x330.jpg"
-              className="card-img-top"
-              alt="Homework"
-            />
+            <img src="/atap1.jpg" className="card-img-top" alt="Full Cast" />
             <div className="card-body">
-              <h5 className="card-title">PASSWORD GENERATOR</h5>
-              <p className="card-text">Need a complex password?</p>
-              <a
-                href=" https://miike7687.github.io/Password_Generator_HW3/"
-                className="btn btn-primary"
-              >
-                Password Generator
+              <h5 className="card-title">A Time And A Place</h5>
+              <p className="card-text">
+                An original musical - Book by Mike Haber, Music by Drew
+                Villafuerte
+              </p>
+              <a href="./pages/atap" className="btn btn-primary">
+                ATAP
               </a>
             </div>
           </div>
@@ -36,18 +33,15 @@ const Portfolio = () => {
           {/* <!-- 2nd column, first row--> */}
           <div className="card card-position">
             <img
-              src="https://pmcdeadline2.files.wordpress.com/2020/04/parks-and-recreation-2.jpg?w=1000"
+              src="https://lh3.googleusercontent.com/KiIZl3VD-A1eC6SyGVuRyVljV98kZvlVmdRUl_8f9wiWJ5ET2HXgKN2Ot_0vilhJo2t1Snu0Wr4_XyuCBU2e0l_EHqRZJ_AZEMP2SzX7=s1280"
               className="card-img-top"
               alt="Preparation"
             />
             <div className="card-body">
-              <h5 className="card-title">PARKS AND REC QUIZ</h5>
-              <p className="card-text">Take my Parks and Rec themed quiz!</p>
-              <a
-                href="https://miike7687.github.io/Code_Quiz/"
-                className="btn btn-primary"
-              >
-                Quiz
+              <h5 className="card-title">Fame Jr.</h5>
+              <p className="card-text">"I wanna live forever"</p>
+              <a href="./pages/fame" className="btn btn-primary">
+                Fame
               </a>
             </div>
           </div>

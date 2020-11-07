@@ -1,3 +1,37 @@
 .navbar {
-  background-color: blueviolet;
+  background-color: transparent;
+}
+
+.nav-item,
+.nav-link,
+.navbar-brand {
+  color: floralwhite;
+}
+
+.nav-link:hover {
+  color: cornflowerblue;
+}
+
+.nav-item:hover {
+  color: cornflowerblue;
+}
+
+.navbar-brand:hover {
+  color: cornflowerblue;
+}
+
+.nav-link:focus {
+  color: cornflowerblue;
+}
+
+.nav-item:focus {
+  color: cornflowerblue;
+}
+
+.navbar-brand:focus {
+  color: cornflowerblue;
+}
+
+.navbar-toggler {
+  color: floralwhite;
 }

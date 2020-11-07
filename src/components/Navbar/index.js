@@ -5,7 +5,7 @@ import "./styles.css";
 const Navbar = () => {
   const location = useLocation();
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg">
       <Link
         to="/"
         className={location.pathname === "/" ? "navbar-brand" : "nav-link"}

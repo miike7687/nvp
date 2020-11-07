@@ -1,0 +1,44 @@
+body {
+  background-image: url("/fame1.jpg");
+}
+
+#about-me {
+  color: coral;
+  font-size: 36px;
+  text-align: center;
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
+  background-color: transparent;
+  font-size: 64px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: ghostwhite;
+}
+
+h2 {
+  padding: 15px;
+}
+
+.container1 {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#about-me {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.card-text {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+#home-container {
+  margin-top: 100px;
+}
